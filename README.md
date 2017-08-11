@@ -33,3 +33,11 @@ Runs the test watcher in an interactive mode. By default, runs tests related to 
 
 Builds the app for production by setting the bundles in production mode and optimizing the build for the best performance.
 Your app is ready to be deployed!
+
+## Enviroment Variables
+We've inclueded commonly used custom [enviroment variables](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-custom-environment-variables) for your convenience.
+
+### `REACT_APP_URL_BASE`
+If this app is served from a sub-directory on your server, you’ll want to set this to the sub-directory. A properly formatted basename should have a leading slash, but no trailing slash.
+
+

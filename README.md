@@ -1,14 +1,14 @@
-# CEB Licensee App
+# React Next
 
-This is the project for the CEBroker Licensee web application.
+Project boilerplate for creating react applications with Emerald UI integrated.
 
 ## Installation
 
 To install the project all you have to do is clone the repo and install the dependencies.
 
 ```
-git clone https://github.com/cebroker/ceb-licensee.git 
-cd ceb-licensee
+git clone https://github.com/cebroker/react-next.git 
+cd react-next
 npm install
 ```
 

@@ -4,6 +4,7 @@ import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter } from 'react-router-dom';
 
 import { App } from './components';
+import '@isfco/evercheck-ui/lib/styles.css';
 import './index.css';
 
 const { REACT_APP_URL_BASE = '/' } = process.env;

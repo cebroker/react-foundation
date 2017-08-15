@@ -9,7 +9,6 @@ import {
   MenuItem
 } from '@isfco/evercheck-ui';
 import AppBar from '../AppBar';
-import { Navbar } from 'react-bootstrap';
 import ceBrokerLogo from './ce-broker-logo.svg';
 import './App.css';
 import { LinkContainer } from 'react-router-bootstrap';

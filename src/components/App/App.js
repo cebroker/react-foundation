@@ -29,12 +29,16 @@ class App extends Component {
             </li>
           </Nav> */}
           <Nav>
-            <NavItem eventKey={1} href="#">
-              My records
-            </NavItem>
-            <NavItem eventKey={2} href="#">
-              Browse courses
-            </NavItem>
+            <LinkContainer to="#">
+              <NavItem eventKey={1}>
+                My records
+              </NavItem>
+            </LinkContainer>
+            <LinkContainer to="#">
+              <NavItem eventKey={2}>
+                Browse courses
+              </NavItem>
+            </LinkContainer>
           </Nav>
           <div className="pull-right">
             <SearchForm
@@ -43,14 +47,18 @@ class App extends Component {
               onSubmit={e => e.preventDefault()}
             />
             <Nav pullRight>
-              <NavItem eventKey={1} href="#" className="upgrade-link">
-                UPGRADE NOW
-              </NavItem>
-              <NavItem eventKey={2} className="nav-item-icon">
-                <RedIndicator>
-                  <i className="material-icons" style={{ fontSize: '26px' }}>mail</i>
-                </RedIndicator>
-              </NavItem>
+              <LinkContainer to="#" className="upgrade-link">
+                <NavItem eventKey={1}>
+                  UPGRADE NOW
+                </NavItem>
+              </LinkContainer>
+              <LinkContainer to="#" className="nav-item-icon">
+                <NavItem eventKey={2}>
+                  <RedIndicator>
+                    <i className="material-icons" style={{ fontSize: '26px' }}>mail</i>
+                  </RedIndicator>
+                </NavItem>
+              </LinkContainer>
               <NavDropdown
                 className="avatar-dropdown"
                 eventKey={3}

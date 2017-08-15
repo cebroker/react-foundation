@@ -112,7 +112,7 @@ class App extends Component {
             className="text-left"
             style={{ marginTop: '29px', marginBottom: '25px' }}
           >
-            John Doe
+            Good afternoon, John!
           </h2>
           <PageHeader.Nav activeKey={1}>
             <LinkContainer to="#" eventKey={1}>

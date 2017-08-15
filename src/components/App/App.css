@@ -59,12 +59,17 @@
 	margin-right: 15px;
 	border-radius: 4px;
 	background: rgba(255, 255, 255, 0.15);
+	box-shadow: none;
 }
 
 .AppBar .search-form i {
 	color: #fff;
 	font-size: 20px;
 	margin-right: 10px;
+}
+
+.appbar .red-indicator.active:after {
+	border-color: #0a4b69;
 }
 
 .nav > li.upgrade-link a {
@@ -119,8 +124,45 @@
 	color: #fff;
 }
 
-
-
 .App-intro {
   font-size: large;
+}
+
+.ec-page-header {
+	background: #0b5171;
+	position: relative;
+}
+
+.ec-page-header .page-header-illustration {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.ec-page-header .page-header-nav {
+	background: #0b5171;
+}
+
+.page-header-nav.nav.nav-pills > li > a {
+	color: rgba(255, 255, 255, 0.59);
+	font-size: 14px;
+}
+
+.page-header-nav.nav.nav-pills > li.active > a {
+	box-shadow: inset 0 -3px 0 #59C697;
+	color: #f1f1f1;
+	font-size: 14px;
+}
+
+.page-header-nav.nav.nav-pills > li > a > span > i {
+	font-size: 19px;
+	position: relative;
+	top: 3px;
+}
+
+.dropdown-menu > li > a > i {
+	font-size: 22px;
+	margin-right: 17px;
+	position: relative;
+	top: 4px;
 }

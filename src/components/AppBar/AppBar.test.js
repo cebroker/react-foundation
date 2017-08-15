@@ -7,19 +7,18 @@ import AppBar from './AppBar';
 chai.use(chaiEnzyme());
 
 it('renders without crasing', () => {
-  const wrapper = shallow(<AppBar />);
-  expect(wrapper).to.be.present();
+  shallow(<AppBar />);
 });
 
 it('has the component class', () => {
   const wrapper = shallow(<AppBar />);
-  expect(wrapper).to.have.className('app-bar');
+  expect(wrapper).to.have.className('AppBar');
 });
 
 it('support other classes', () => {
   const wrapper = shallow(<AppBar className="foo" />);
   expect(wrapper).to.have.className("foo");
-  expect(wrapper).to.have.className('app-bar');
+  expect(wrapper).to.have.className('AppBar');
 });
 
 it('passes other props down', () => {

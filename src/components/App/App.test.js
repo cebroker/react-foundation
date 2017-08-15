@@ -1,8 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
+import chai, { expect } from 'chai';
+import { shallow } from 'enzyme';
+import chaiEnzyme from 'chai-enzyme';
+import { MemoryRouter } from 'react-router-dom';
 import App from './App';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
+chai.use(chaiEnzyme());
+
+it('renders without crasing', () => {
+  const wrapper = shallow(<App />);
+  expect(wrapper).to.be.present();
 });

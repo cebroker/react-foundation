@@ -14,6 +14,10 @@
 	float: left;
 }
 
+.nav a {
+	outline-offset: -5px;
+}
+
 .nav > li {
 	display: inline-block;
 }
@@ -31,15 +35,36 @@
 	background: transparent;
 }
 
+.nav > li > a.dropdown-toggle:focus,
+.nav > li > a.dropdown-toggle:active {
+	outline: 5px auto -webkit-focus-ring-color;
+	background-color: transparent;
+}
+
+.nav >li.dropdown.open > a.dropdown-toggle {
+	background-color: transparent;
+}
+
+.nav > li.dropdown > .dropdown-menu {
+	top: 63px;
+}
+
 .AppBar .search-form {
 	display: flex;
 	float: left;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding-top: 9px;
+	padding-bottom: 9px;
 	min-width: 306px;
 	margin-top: 14px;
+	margin-right: 15px;
 	border-radius: 4px;
 	background: rgba(255, 255, 255, 0.15);
+}
+
+.AppBar .search-form i {
+	color: #fff;
+	font-size: 20px;
+	margin-right: 10px;
 }
 
 .nav > li.upgrade-link a {
@@ -47,11 +72,45 @@
 	font-weight: bold;
 	letter-spacing: 0.5px;
 	font-size: 11px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
-.nav > li.avatar a {
+.nav > li.avatar-dropdown > a {
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.nav > li.avatar-dropdown .dropdown-menu a > i {
+	color: #b0b0b0;
+	font-size: 16px;
+	position: relative;
+	top: 2px;
+	margin-right: 9px;
+}
+
+.nav > li.avatar-dropdown .username {
+	color: #4C5656;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: none;
+	margin: 0;
+}
+
+.nav > li.avatar-dropdown .subtitle {
+	margin: 0;
+	font-size: 12px;
+	letter-spacing: 0.45px;
+}
+
+.nav > li.nav-item-icon > a {
+	height: 66px;
+	padding-top: 11px;
+	padding-bottom: 10px;
+}
+
+.nav > li.nav-item-icon > a > .red-indicator {
+	top: 9px;
 }
 
 .AppBar .search-form input {
@@ -60,9 +119,7 @@
 	color: #fff;
 }
 
-.AppBar .search-form i {
-	color: #fff;
-}
+
 
 .App-intro {
   font-size: large;

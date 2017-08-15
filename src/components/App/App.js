@@ -1,8 +1,17 @@
 import React, { Component } from 'react';
-import { Nav, NavItem, RedIndicator, SearchForm, Avatar } from '@isfco/evercheck-ui';
+import {
+  Nav,
+  NavItem,
+  RedIndicator,
+  SearchForm,
+  Avatar,
+  NavDropdown,
+  MenuItem
+} from '@isfco/evercheck-ui';
 import AppBar from '../AppBar';
 import ceBrokerLogo from './ce-broker-logo.svg';
 import './App.css';
+import { LinkContainer } from 'react-router-bootstrap';
 
 class App extends Component {
   render() {
@@ -11,7 +20,7 @@ class App extends Component {
         <AppBar>
           <AppBar.Header>
             <AppBar.Brand target="/" className="App-brand">
-              <img src={ceBrokerLogo} alt="[My APP]" className="App-logo"/>
+              <img src={ceBrokerLogo} alt="[My APP]" className="App-logo" />
             </AppBar.Brand>
           </AppBar.Header>
           {/* <Nav>
@@ -20,28 +29,70 @@ class App extends Component {
             </li>
           </Nav> */}
           <Nav>
-            <NavItem eventKey={1} href="#">My records</NavItem>
-            <NavItem eventKey={2} href="#">Browse courses</NavItem>
-          </Nav>
-          <Nav pullRight>
-            <NavItem eventKey={1} href="#" className="upgrade-link">UPGRADE NOW</NavItem>
-            <NavItem eventKey={2} className="nav-item-icon">
-              <RedIndicator>
-                <i className="material-icons">mail</i>
-              </RedIndicator>
+            <NavItem eventKey={1} href="#">
+              My records
             </NavItem>
-            <NavItem eventKey={3} className="avatar">
-              <Avatar title="JD" />
+            <NavItem eventKey={2} href="#">
+              Browse courses
             </NavItem>
-            {/* <NavDropdown className="avatar-dropdown" eventKey={3} title={<Avatar title='Jorge Sanes' style={{ paddingTop: '2px'}} />} id="test-nav-dropdown" pullRight noCaret>
-              <MenuItem eventKey={3.1}>Action</MenuItem>
-              <MenuItem eventKey={3.2}>Another action</MenuItem>
-              <MenuItem eventKey={3.3}>Something else here</MenuItem>
-              <MenuItem divider />
-              <MenuItem eventKey={3.3}>Separated link</MenuItem>
-            </NavDropdown> */}
           </Nav>
-          <SearchForm className="pull-right" placeholder="Search for a course provider or subject" inputId='query' onSubmit={e => e.preventDefault() } />
+          <div className="pull-right">
+            <SearchForm
+              placeholder="Search for a course provider or subject"
+              inputId="query"
+              onSubmit={e => e.preventDefault()}
+            />
+            <Nav pullRight>
+              <NavItem eventKey={1} href="#" className="upgrade-link">
+                UPGRADE NOW
+              </NavItem>
+              <NavItem eventKey={2} className="nav-item-icon">
+                <RedIndicator>
+                  <i className="material-icons" style={{ fontSize: '26px' }}>mail</i>
+                </RedIndicator>
+              </NavItem>
+              <NavDropdown
+                className="avatar-dropdown"
+                eventKey={3}
+                title={<Avatar title="John Doe" />}
+                id="test-nav-dropdown"
+                pullRight
+                noCaret
+              >
+                <MenuItem
+                  header
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    paddingTop: '11px',
+                    paddingBottom: '10px',
+                    minWidth: '217px'
+                  }}
+                >
+                  <Avatar
+                    title="John Doe"
+                    size="lg"
+                    style={{ display: 'inline-block', marginRight: '20px' }}
+                  />
+                  <div style={{ display: 'inline-block' }}>
+                    <p className="username">John Doe</p>
+                    <p className="subtitle">ADMIN</p>
+                  </div>
+                </MenuItem>
+                <MenuItem divider />
+                <LinkContainer to="#">
+                  <MenuItem icon="settings" eventKey={3.1}>Account settings</MenuItem>
+                </LinkContainer>
+                <LinkContainer to="#">
+                  <MenuItem icon="supervisor_account" eventKey={3.2}>Users</MenuItem>
+                </LinkContainer>
+                <MenuItem divider />
+                <LinkContainer to="#">
+                  <MenuItem icon="exit_to_app" eventKey={3.3}>Sign out</MenuItem>
+                </LinkContainer>
+              </NavDropdown>
+            </Nav>
+          </div>
         </AppBar>
       </div>
     );

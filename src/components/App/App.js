@@ -9,6 +9,7 @@ import {
   MenuItem
 } from '@isfco/evercheck-ui';
 import AppBar from '../AppBar';
+import { Navbar } from 'react-bootstrap';
 import ceBrokerLogo from './ce-broker-logo.svg';
 import './App.css';
 import { LinkContainer } from 'react-router-bootstrap';
@@ -23,11 +24,6 @@ class App extends Component {
               <img src={ceBrokerLogo} alt="[My APP]" className="App-logo" />
             </AppBar.Brand>
           </AppBar.Header>
-          {/* <Nav>
-            <li role="presentation" className="active">
-              <NavLink to={this.rootLink}>Requirements</NavLink>
-            </li>
-          </Nav> */}
           <Nav>
             <LinkContainer to="#">
               <NavItem eventKey={1}>

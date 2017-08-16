@@ -38,6 +38,7 @@ class App extends Component {
             <SearchForm
               placeholder="Search for a course provider or subject"
               inputId="query"
+              clearable
               onSubmit={e => e.preventDefault()}
             />
             <Nav pullRight>

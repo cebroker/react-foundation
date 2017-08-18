@@ -1,1445 +1,441 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly - snapshot 1`] = `
-ShallowWrapper {
-  "complexSelector": ComplexSelector {
-    "buildPredicate": [Function],
-    "childrenOfNode": [Function],
-    "findWhereUnwrapped": [Function],
-  },
-  "length": 1,
-  "node": <div
-    className="App"
+<div
+  className="App"
 >
-    <AppBar>
-        <Unknown>
-            <Unknown
-                className="App-brand"
-                target="/"
-            >
-                <img
-                    alt="[My APP]"
-                    className="App-logo"
-                    src="ce-broker-logo.svg"
-                />
-            </Unknown>
-        </Unknown>
-        <Nav
-            bsClass="nav"
-            justified={false}
-            pullLeft={false}
-            pullRight={false}
-            stacked={false}
-        >
-            <LinkContainer
-                activeClassName="active"
-                exact={false}
-                replace={false}
-                strict={false}
-                to="#"
-            >
-                <NavItem
-                    active={false}
-                    disabled={false}
-                    eventKey={1}
-                >
-                    My records
-                </NavItem>
-            </LinkContainer>
-            <LinkContainer
-                activeClassName="active"
-                exact={false}
-                replace={false}
-                strict={false}
-                to="#"
-            >
-                <NavItem
-                    active={false}
-                    disabled={false}
-                    eventKey={2}
-                >
-                    Browse courses
-                </NavItem>
-            </LinkContainer>
-        </Nav>
-        <div
-            className="pull-right"
-        >
-            <SearchForm
-                clearable={true}
-                inputId="query"
-                onSubmit={[Function]}
-                placeholder="Search for a course provider or subject"
-            />
-            <Nav
-                bsClass="nav"
-                justified={false}
-                pullLeft={false}
-                pullRight={true}
-                stacked={false}
-            >
-                <LinkContainer
-                    activeClassName="active"
-                    className="upgrade-link"
-                    exact={false}
-                    replace={false}
-                    strict={false}
-                    to="#"
-                >
-                    <NavItem
-                        active={false}
-                        disabled={false}
-                        eventKey={1}
-                    >
-                        UPGRADE NOW
-                    </NavItem>
-                </LinkContainer>
-                <LinkContainer
-                    activeClassName="active"
-                    className="nav-item-icon"
-                    exact={false}
-                    replace={false}
-                    strict={false}
-                    to="#"
-                >
-                    <NavItem
-                        active={false}
-                        disabled={false}
-                        eventKey={2}
-                    >
-                        <RedIndicator
-                            active={true}
-                        >
-                            <i
-                                className="material-icons"
-                                style={
-                                    Object {
-                                        "fontSize": "26px",
-                                      }
-                                }
-                            >
-                                mail
-                            </i>
-                        </RedIndicator>
-                    </NavItem>
-                </LinkContainer>
-                <NavDropdown
-                    className="avatar-dropdown"
-                    eventKey={3}
-                    id="test-nav-dropdown"
-                    noCaret={true}
-                    pullRight={true}
-                    title={
-                        <Avatar
-                            size="xs"
-                            title="John Doe"
-                        />
-                    }
-                >
-                    <MenuItem
-                        header={true}
-                        style={
-                            Object {
-                                "alignItems": "center",
-                                "display": "flex",
-                                "minWidth": "217px",
-                                "paddingBottom": "10px",
-                                "paddingTop": "11px",
-                              }
-                        }
-                    >
-                        <Avatar
-                            size="lg"
-                            style={
-                                Object {
-                                    "display": "inline-block",
-                                    "marginRight": "20px",
-                                  }
-                            }
-                            title="John Doe"
-                        />
-                        <div
-                            style={
-                                Object {
-                                    "display": "inline-block",
-                                  }
-                            }
-                        >
-                            <p
-                                className="username"
-                            >
-                                John Doe
-                            </p>
-                            <p
-                                className="subtitle"
-                            >
-                                ADMIN
-                            </p>
-                        </div>
-                    </MenuItem>
-                    <MenuItem
-                        divider={true}
-                    />
-                    <LinkContainer
-                        activeClassName="active"
-                        exact={false}
-                        replace={false}
-                        strict={false}
-                        to="#"
-                    >
-                        <MenuItem
-                            eventKey={3.1}
-                            icon="settings"
-                        >
-                            Account settings
-                        </MenuItem>
-                    </LinkContainer>
-                    <LinkContainer
-                        activeClassName="active"
-                        exact={false}
-                        replace={false}
-                        strict={false}
-                        to="#"
-                    >
-                        <MenuItem
-                            eventKey={3.2}
-                            icon="supervisor_account"
-                        >
-                            Users
-                        </MenuItem>
-                    </LinkContainer>
-                    <MenuItem
-                        divider={true}
-                    />
-                    <LinkContainer
-                        activeClassName="active"
-                        exact={false}
-                        replace={false}
-                        strict={false}
-                        to="#"
-                    >
-                        <MenuItem
-                            eventKey={3.3}
-                            icon="exit_to_app"
-                        >
-                            Sign out
-                        </MenuItem>
-                    </LinkContainer>
-                </NavDropdown>
-            </Nav>
-        </div>
-    </AppBar>
-    <PageHeader>
-        <img
-            alt="illustration of buildings and windmills"
-            className="page-header-illustration"
-            src="page-header-illustration.svg"
-        />
-        <h2
-            className="text-left"
-            style={
-                Object {
-                    "marginBottom": "25px",
-                    "marginTop": "29px",
-                  }
-            }
-        >
-            Good afternoon, John!
-        </h2>
-        <PageHeaderNavigation
-            activeKey={1}
-        >
-            <LinkContainer
-                activeClassName="active"
-                eventKey={1}
-                exact={false}
-                replace={false}
-                strict={false}
-                to="#"
-            >
-                <NavItem
-                    active={false}
-                    disabled={false}
-                >
-                    OVERVIEW
-                </NavItem>
-            </LinkContainer>
-            <LinkContainer
-                activeClassName="active"
-                eventKey={2}
-                exact={false}
-                replace={false}
-                strict={false}
-                to="#"
-            >
-                <NavItem
-                    active={false}
-                    disabled={false}
-                >
-                    COURSE HISTORY
-                </NavItem>
-            </LinkContainer>
-            <LinkContainer
-                activeClassName="active"
-                eventKey={3}
-                exact={false}
-                replace={false}
-                strict={false}
-                to="#"
-            >
-                <NavItem
-                    active={false}
-                    disabled={false}
-                >
-                    REPORTED EXEMPTIONS
-                </NavItem>
-            </LinkContainer>
-            <NavDropdown
-                id="tab-dropdown"
-                noCaret={true}
-                title={
-                    <span>
-                        MORE
-                        <i
-                            className="material-icons"
-                        >
-                            arrow_drop_down
-                        </i>
-                    </span>
-                }
-            >
-                <LinkContainer
-                    activeClassName="active"
-                    exact={false}
-                    replace={false}
-                    strict={false}
-                    to="#"
-                >
-                    <MenuItem
-                        eventKey={3.1}
-                        icon="settings"
-                    >
-                        Action 1
-                    </MenuItem>
-                </LinkContainer>
-                <LinkContainer
-                    activeClassName="active"
-                    exact={false}
-                    replace={false}
-                    strict={false}
-                    to="#"
-                >
-                    <MenuItem
-                        eventKey={3.2}
-                        icon="supervisor_account"
-                    >
-                        Action 2
-                    </MenuItem>
-                </LinkContainer>
-            </NavDropdown>
-        </PageHeaderNavigation>
-    </PageHeader>
+  <nav
+    className="AppBar appbar navbar navbar-inverse"
+  >
     <div
-        className="container"
-        style={
-            Object {
-                "paddingTop": "20px",
-              }
-        }
+      className="container"
     >
-        <h2
-            className="text-left"
-        >
-            Overview
-        </h2>
-    </div>
-</div>,
-  "nodes": Array [
-    <div
-      className="App"
->
-      <AppBar>
-            <Unknown>
-                  <Unknown
-                        className="App-brand"
-                        target="/"
-                  >
-                        <img
-                              alt="[My APP]"
-                              className="App-logo"
-                              src="ce-broker-logo.svg"
-                        />
-                  </Unknown>
-            </Unknown>
-            <Nav
-                  bsClass="nav"
-                  justified={false}
-                  pullLeft={false}
-                  pullRight={false}
-                  stacked={false}
-            >
-                  <LinkContainer
-                        activeClassName="active"
-                        exact={false}
-                        replace={false}
-                        strict={false}
-                        to="#"
-                  >
-                        <NavItem
-                              active={false}
-                              disabled={false}
-                              eventKey={1}
-                        >
-                              My records
-                        </NavItem>
-                  </LinkContainer>
-                  <LinkContainer
-                        activeClassName="active"
-                        exact={false}
-                        replace={false}
-                        strict={false}
-                        to="#"
-                  >
-                        <NavItem
-                              active={false}
-                              disabled={false}
-                              eventKey={2}
-                        >
-                              Browse courses
-                        </NavItem>
-                  </LinkContainer>
-            </Nav>
-            <div
-                  className="pull-right"
-            >
-                  <SearchForm
-                        clearable={true}
-                        inputId="query"
-                        onSubmit={[Function]}
-                        placeholder="Search for a course provider or subject"
-                  />
-                  <Nav
-                        bsClass="nav"
-                        justified={false}
-                        pullLeft={false}
-                        pullRight={true}
-                        stacked={false}
-                  >
-                        <LinkContainer
-                              activeClassName="active"
-                              className="upgrade-link"
-                              exact={false}
-                              replace={false}
-                              strict={false}
-                              to="#"
-                        >
-                              <NavItem
-                                    active={false}
-                                    disabled={false}
-                                    eventKey={1}
-                              >
-                                    UPGRADE NOW
-                              </NavItem>
-                        </LinkContainer>
-                        <LinkContainer
-                              activeClassName="active"
-                              className="nav-item-icon"
-                              exact={false}
-                              replace={false}
-                              strict={false}
-                              to="#"
-                        >
-                              <NavItem
-                                    active={false}
-                                    disabled={false}
-                                    eventKey={2}
-                              >
-                                    <RedIndicator
-                                          active={true}
-                                    >
-                                          <i
-                                                className="material-icons"
-                                                style={
-                                                      Object {
-                                                            "fontSize": "26px",
-                                                          }
-                                                }
-                                          >
-                                                mail
-                                          </i>
-                                    </RedIndicator>
-                              </NavItem>
-                        </LinkContainer>
-                        <NavDropdown
-                              className="avatar-dropdown"
-                              eventKey={3}
-                              id="test-nav-dropdown"
-                              noCaret={true}
-                              pullRight={true}
-                              title={
-                                    <Avatar
-                                          size="xs"
-                                          title="John Doe"
-                                    />
-                              }
-                        >
-                              <MenuItem
-                                    header={true}
-                                    style={
-                                          Object {
-                                                "alignItems": "center",
-                                                "display": "flex",
-                                                "minWidth": "217px",
-                                                "paddingBottom": "10px",
-                                                "paddingTop": "11px",
-                                              }
-                                    }
-                              >
-                                    <Avatar
-                                          size="lg"
-                                          style={
-                                                Object {
-                                                      "display": "inline-block",
-                                                      "marginRight": "20px",
-                                                    }
-                                          }
-                                          title="John Doe"
-                                    />
-                                    <div
-                                          style={
-                                                Object {
-                                                      "display": "inline-block",
-                                                    }
-                                          }
-                                    >
-                                          <p
-                                                className="username"
-                                          >
-                                                John Doe
-                                          </p>
-                                          <p
-                                                className="subtitle"
-                                          >
-                                                ADMIN
-                                          </p>
-                                    </div>
-                              </MenuItem>
-                              <MenuItem
-                                    divider={true}
-                              />
-                              <LinkContainer
-                                    activeClassName="active"
-                                    exact={false}
-                                    replace={false}
-                                    strict={false}
-                                    to="#"
-                              >
-                                    <MenuItem
-                                          eventKey={3.1}
-                                          icon="settings"
-                                    >
-                                          Account settings
-                                    </MenuItem>
-                              </LinkContainer>
-                              <LinkContainer
-                                    activeClassName="active"
-                                    exact={false}
-                                    replace={false}
-                                    strict={false}
-                                    to="#"
-                              >
-                                    <MenuItem
-                                          eventKey={3.2}
-                                          icon="supervisor_account"
-                                    >
-                                          Users
-                                    </MenuItem>
-                              </LinkContainer>
-                              <MenuItem
-                                    divider={true}
-                              />
-                              <LinkContainer
-                                    activeClassName="active"
-                                    exact={false}
-                                    replace={false}
-                                    strict={false}
-                                    to="#"
-                              >
-                                    <MenuItem
-                                          eventKey={3.3}
-                                          icon="exit_to_app"
-                                    >
-                                          Sign out
-                                    </MenuItem>
-                              </LinkContainer>
-                        </NavDropdown>
-                  </Nav>
-            </div>
-      </AppBar>
-      <PageHeader>
-            <img
-                  alt="illustration of buildings and windmills"
-                  className="page-header-illustration"
-                  src="page-header-illustration.svg"
-            />
-            <h2
-                  className="text-left"
-                  style={
-                        Object {
-                              "marginBottom": "25px",
-                              "marginTop": "29px",
-                            }
-                  }
-            >
-                  Good afternoon, John!
-            </h2>
-            <PageHeaderNavigation
-                  activeKey={1}
-            >
-                  <LinkContainer
-                        activeClassName="active"
-                        eventKey={1}
-                        exact={false}
-                        replace={false}
-                        strict={false}
-                        to="#"
-                  >
-                        <NavItem
-                              active={false}
-                              disabled={false}
-                        >
-                              OVERVIEW
-                        </NavItem>
-                  </LinkContainer>
-                  <LinkContainer
-                        activeClassName="active"
-                        eventKey={2}
-                        exact={false}
-                        replace={false}
-                        strict={false}
-                        to="#"
-                  >
-                        <NavItem
-                              active={false}
-                              disabled={false}
-                        >
-                              COURSE HISTORY
-                        </NavItem>
-                  </LinkContainer>
-                  <LinkContainer
-                        activeClassName="active"
-                        eventKey={3}
-                        exact={false}
-                        replace={false}
-                        strict={false}
-                        to="#"
-                  >
-                        <NavItem
-                              active={false}
-                              disabled={false}
-                        >
-                              REPORTED EXEMPTIONS
-                        </NavItem>
-                  </LinkContainer>
-                  <NavDropdown
-                        id="tab-dropdown"
-                        noCaret={true}
-                        title={
-                              <span>
-                                    MORE
-                                    <i
-                                          className="material-icons"
-                                    >
-                                          arrow_drop_down
-                                    </i>
-                              </span>
-                        }
-                  >
-                        <LinkContainer
-                              activeClassName="active"
-                              exact={false}
-                              replace={false}
-                              strict={false}
-                              to="#"
-                        >
-                              <MenuItem
-                                    eventKey={3.1}
-                                    icon="settings"
-                              >
-                                    Action 1
-                              </MenuItem>
-                        </LinkContainer>
-                        <LinkContainer
-                              activeClassName="active"
-                              exact={false}
-                              replace={false}
-                              strict={false}
-                              to="#"
-                        >
-                              <MenuItem
-                                    eventKey={3.2}
-                                    icon="supervisor_account"
-                              >
-                                    Action 2
-                              </MenuItem>
-                        </LinkContainer>
-                  </NavDropdown>
-            </PageHeaderNavigation>
-      </PageHeader>
       <div
-            className="container"
-            style={
-                  Object {
-                        "paddingTop": "20px",
-                      }
-            }
+        className="navbar-header"
       >
-            <h2
-                  className="text-left"
-            >
-                  Overview
-            </h2>
+        <a
+          className="navbar-brand App-brand"
+          href="/"
+          onClick={[Function]}
+        >
+          <img
+            alt="[My APP]"
+            className="App-logo"
+            src="ce-broker-logo.svg"
+          />
+        </a>
       </div>
-</div>,
-  ],
-  "options": Object {},
-  "renderer": ReactShallowRenderer {
-    "_instance": ShallowComponentWrapper {
-      "_calledComponentWillUnmount": false,
-      "_compositeType": 0,
-      "_context": Object {},
-      "_currentElement": <App />,
-      "_debugID": 3,
-      "_hostContainerInfo": null,
-      "_hostParent": null,
-      "_instance": App {
-        "_reactInternalInstance": [Circular],
-        "context": Object {},
-        "props": Object {},
-        "refs": Object {},
-        "state": null,
-        "updater": Object {
-          "enqueueCallback": [Function],
-          "enqueueCallbackInternal": [Function],
-          "enqueueElementInternal": [Function],
-          "enqueueForceUpdate": [Function],
-          "enqueueReplaceState": [Function],
-          "enqueueSetState": [Function],
-          "isMounted": [Function],
-          "validateCallback": [Function],
-        },
-      },
-      "_mountOrder": 2,
-      "_pendingCallbacks": null,
-      "_pendingElement": null,
-      "_pendingForceUpdate": false,
-      "_pendingReplaceState": false,
-      "_pendingStateQueue": null,
-      "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <div
-          className="App"
->
-          <AppBar>
-                    <Unknown>
-                              <Unknown
-                                        className="App-brand"
-                                        target="/"
-                              >
-                                        <img
-                                                  alt="[My APP]"
-                                                  className="App-logo"
-                                                  src="ce-broker-logo.svg"
-                                        />
-                              </Unknown>
-                    </Unknown>
-                    <Nav
-                              bsClass="nav"
-                              justified={false}
-                              pullLeft={false}
-                              pullRight={false}
-                              stacked={false}
-                    >
-                              <LinkContainer
-                                        activeClassName="active"
-                                        exact={false}
-                                        replace={false}
-                                        strict={false}
-                                        to="#"
-                              >
-                                        <NavItem
-                                                  active={false}
-                                                  disabled={false}
-                                                  eventKey={1}
-                                        >
-                                                  My records
-                                        </NavItem>
-                              </LinkContainer>
-                              <LinkContainer
-                                        activeClassName="active"
-                                        exact={false}
-                                        replace={false}
-                                        strict={false}
-                                        to="#"
-                              >
-                                        <NavItem
-                                                  active={false}
-                                                  disabled={false}
-                                                  eventKey={2}
-                                        >
-                                                  Browse courses
-                                        </NavItem>
-                              </LinkContainer>
-                    </Nav>
-                    <div
-                              className="pull-right"
-                    >
-                              <SearchForm
-                                        clearable={true}
-                                        inputId="query"
-                                        onSubmit={[Function]}
-                                        placeholder="Search for a course provider or subject"
-                              />
-                              <Nav
-                                        bsClass="nav"
-                                        justified={false}
-                                        pullLeft={false}
-                                        pullRight={true}
-                                        stacked={false}
-                              >
-                                        <LinkContainer
-                                                  activeClassName="active"
-                                                  className="upgrade-link"
-                                                  exact={false}
-                                                  replace={false}
-                                                  strict={false}
-                                                  to="#"
-                                        >
-                                                  <NavItem
-                                                            active={false}
-                                                            disabled={false}
-                                                            eventKey={1}
-                                                  >
-                                                            UPGRADE NOW
-                                                  </NavItem>
-                                        </LinkContainer>
-                                        <LinkContainer
-                                                  activeClassName="active"
-                                                  className="nav-item-icon"
-                                                  exact={false}
-                                                  replace={false}
-                                                  strict={false}
-                                                  to="#"
-                                        >
-                                                  <NavItem
-                                                            active={false}
-                                                            disabled={false}
-                                                            eventKey={2}
-                                                  >
-                                                            <RedIndicator
-                                                                      active={true}
-                                                            >
-                                                                      <i
-                                                                                className="material-icons"
-                                                                                style={
-                                                                                          Object {
-                                                                                                    "fontSize": "26px",
-                                                                                                  }
-                                                                                }
-                                                                      >
-                                                                                mail
-                                                                      </i>
-                                                            </RedIndicator>
-                                                  </NavItem>
-                                        </LinkContainer>
-                                        <NavDropdown
-                                                  className="avatar-dropdown"
-                                                  eventKey={3}
-                                                  id="test-nav-dropdown"
-                                                  noCaret={true}
-                                                  pullRight={true}
-                                                  title={
-                                                            <Avatar
-                                                                      size="xs"
-                                                                      title="John Doe"
-                                                            />
-                                                  }
-                                        >
-                                                  <MenuItem
-                                                            header={true}
-                                                            style={
-                                                                      Object {
-                                                                                "alignItems": "center",
-                                                                                "display": "flex",
-                                                                                "minWidth": "217px",
-                                                                                "paddingBottom": "10px",
-                                                                                "paddingTop": "11px",
-                                                                              }
-                                                            }
-                                                  >
-                                                            <Avatar
-                                                                      size="lg"
-                                                                      style={
-                                                                                Object {
-                                                                                          "display": "inline-block",
-                                                                                          "marginRight": "20px",
-                                                                                        }
-                                                                      }
-                                                                      title="John Doe"
-                                                            />
-                                                            <div
-                                                                      style={
-                                                                                Object {
-                                                                                          "display": "inline-block",
-                                                                                        }
-                                                                      }
-                                                            >
-                                                                      <p
-                                                                                className="username"
-                                                                      >
-                                                                                John Doe
-                                                                      </p>
-                                                                      <p
-                                                                                className="subtitle"
-                                                                      >
-                                                                                ADMIN
-                                                                      </p>
-                                                            </div>
-                                                  </MenuItem>
-                                                  <MenuItem
-                                                            divider={true}
-                                                  />
-                                                  <LinkContainer
-                                                            activeClassName="active"
-                                                            exact={false}
-                                                            replace={false}
-                                                            strict={false}
-                                                            to="#"
-                                                  >
-                                                            <MenuItem
-                                                                      eventKey={3.1}
-                                                                      icon="settings"
-                                                            >
-                                                                      Account settings
-                                                            </MenuItem>
-                                                  </LinkContainer>
-                                                  <LinkContainer
-                                                            activeClassName="active"
-                                                            exact={false}
-                                                            replace={false}
-                                                            strict={false}
-                                                            to="#"
-                                                  >
-                                                            <MenuItem
-                                                                      eventKey={3.2}
-                                                                      icon="supervisor_account"
-                                                            >
-                                                                      Users
-                                                            </MenuItem>
-                                                  </LinkContainer>
-                                                  <MenuItem
-                                                            divider={true}
-                                                  />
-                                                  <LinkContainer
-                                                            activeClassName="active"
-                                                            exact={false}
-                                                            replace={false}
-                                                            strict={false}
-                                                            to="#"
-                                                  >
-                                                            <MenuItem
-                                                                      eventKey={3.3}
-                                                                      icon="exit_to_app"
-                                                            >
-                                                                      Sign out
-                                                            </MenuItem>
-                                                  </LinkContainer>
-                                        </NavDropdown>
-                              </Nav>
-                    </div>
-          </AppBar>
-          <PageHeader>
-                    <img
-                              alt="illustration of buildings and windmills"
-                              className="page-header-illustration"
-                              src="page-header-illustration.svg"
-                    />
-                    <h2
-                              className="text-left"
-                              style={
-                                        Object {
-                                                  "marginBottom": "25px",
-                                                  "marginTop": "29px",
-                                                }
-                              }
-                    >
-                              Good afternoon, John!
-                    </h2>
-                    <PageHeaderNavigation
-                              activeKey={1}
-                    >
-                              <LinkContainer
-                                        activeClassName="active"
-                                        eventKey={1}
-                                        exact={false}
-                                        replace={false}
-                                        strict={false}
-                                        to="#"
-                              >
-                                        <NavItem
-                                                  active={false}
-                                                  disabled={false}
-                                        >
-                                                  OVERVIEW
-                                        </NavItem>
-                              </LinkContainer>
-                              <LinkContainer
-                                        activeClassName="active"
-                                        eventKey={2}
-                                        exact={false}
-                                        replace={false}
-                                        strict={false}
-                                        to="#"
-                              >
-                                        <NavItem
-                                                  active={false}
-                                                  disabled={false}
-                                        >
-                                                  COURSE HISTORY
-                                        </NavItem>
-                              </LinkContainer>
-                              <LinkContainer
-                                        activeClassName="active"
-                                        eventKey={3}
-                                        exact={false}
-                                        replace={false}
-                                        strict={false}
-                                        to="#"
-                              >
-                                        <NavItem
-                                                  active={false}
-                                                  disabled={false}
-                                        >
-                                                  REPORTED EXEMPTIONS
-                                        </NavItem>
-                              </LinkContainer>
-                              <NavDropdown
-                                        id="tab-dropdown"
-                                        noCaret={true}
-                                        title={
-                                                  <span>
-                                                            MORE
-                                                            <i
-                                                                      className="material-icons"
-                                                            >
-                                                                      arrow_drop_down
-                                                            </i>
-                                                  </span>
-                                        }
-                              >
-                                        <LinkContainer
-                                                  activeClassName="active"
-                                                  exact={false}
-                                                  replace={false}
-                                                  strict={false}
-                                                  to="#"
-                                        >
-                                                  <MenuItem
-                                                            eventKey={3.1}
-                                                            icon="settings"
-                                                  >
-                                                            Action 1
-                                                  </MenuItem>
-                                        </LinkContainer>
-                                        <LinkContainer
-                                                  activeClassName="active"
-                                                  exact={false}
-                                                  replace={false}
-                                                  strict={false}
-                                                  to="#"
-                                        >
-                                                  <MenuItem
-                                                            eventKey={3.2}
-                                                            icon="supervisor_account"
-                                                  >
-                                                            Action 2
-                                                  </MenuItem>
-                                        </LinkContainer>
-                              </NavDropdown>
-                    </PageHeaderNavigation>
-          </PageHeader>
-          <div
-                    className="container"
-                    style={
-                              Object {
-                                        "paddingTop": "20px",
-                                      }
-                    }
+      <ul
+        className="nav"
+        role={null}
+      >
+        <li
+          className=""
+          role="presentation"
+          style={undefined}
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+            role="button"
           >
-                    <h2
-                              className="text-left"
-                    >
-                              Overview
-                    </h2>
-          </div>
-</div>,
-        "_debugID": 4,
-        "_renderedOutput": <div
-          className="App"
->
-          <AppBar>
-                    <Unknown>
-                              <Unknown
-                                        className="App-brand"
-                                        target="/"
-                              >
-                                        <img
-                                                  alt="[My APP]"
-                                                  className="App-logo"
-                                                  src="ce-broker-logo.svg"
-                                        />
-                              </Unknown>
-                    </Unknown>
-                    <Nav
-                              bsClass="nav"
-                              justified={false}
-                              pullLeft={false}
-                              pullRight={false}
-                              stacked={false}
-                    >
-                              <LinkContainer
-                                        activeClassName="active"
-                                        exact={false}
-                                        replace={false}
-                                        strict={false}
-                                        to="#"
-                              >
-                                        <NavItem
-                                                  active={false}
-                                                  disabled={false}
-                                                  eventKey={1}
-                                        >
-                                                  My records
-                                        </NavItem>
-                              </LinkContainer>
-                              <LinkContainer
-                                        activeClassName="active"
-                                        exact={false}
-                                        replace={false}
-                                        strict={false}
-                                        to="#"
-                              >
-                                        <NavItem
-                                                  active={false}
-                                                  disabled={false}
-                                                  eventKey={2}
-                                        >
-                                                  Browse courses
-                                        </NavItem>
-                              </LinkContainer>
-                    </Nav>
-                    <div
-                              className="pull-right"
-                    >
-                              <SearchForm
-                                        clearable={true}
-                                        inputId="query"
-                                        onSubmit={[Function]}
-                                        placeholder="Search for a course provider or subject"
-                              />
-                              <Nav
-                                        bsClass="nav"
-                                        justified={false}
-                                        pullLeft={false}
-                                        pullRight={true}
-                                        stacked={false}
-                              >
-                                        <LinkContainer
-                                                  activeClassName="active"
-                                                  className="upgrade-link"
-                                                  exact={false}
-                                                  replace={false}
-                                                  strict={false}
-                                                  to="#"
-                                        >
-                                                  <NavItem
-                                                            active={false}
-                                                            disabled={false}
-                                                            eventKey={1}
-                                                  >
-                                                            UPGRADE NOW
-                                                  </NavItem>
-                                        </LinkContainer>
-                                        <LinkContainer
-                                                  activeClassName="active"
-                                                  className="nav-item-icon"
-                                                  exact={false}
-                                                  replace={false}
-                                                  strict={false}
-                                                  to="#"
-                                        >
-                                                  <NavItem
-                                                            active={false}
-                                                            disabled={false}
-                                                            eventKey={2}
-                                                  >
-                                                            <RedIndicator
-                                                                      active={true}
-                                                            >
-                                                                      <i
-                                                                                className="material-icons"
-                                                                                style={
-                                                                                          Object {
-                                                                                                    "fontSize": "26px",
-                                                                                                  }
-                                                                                }
-                                                                      >
-                                                                                mail
-                                                                      </i>
-                                                            </RedIndicator>
-                                                  </NavItem>
-                                        </LinkContainer>
-                                        <NavDropdown
-                                                  className="avatar-dropdown"
-                                                  eventKey={3}
-                                                  id="test-nav-dropdown"
-                                                  noCaret={true}
-                                                  pullRight={true}
-                                                  title={
-                                                            <Avatar
-                                                                      size="xs"
-                                                                      title="John Doe"
-                                                            />
-                                                  }
-                                        >
-                                                  <MenuItem
-                                                            header={true}
-                                                            style={
-                                                                      Object {
-                                                                                "alignItems": "center",
-                                                                                "display": "flex",
-                                                                                "minWidth": "217px",
-                                                                                "paddingBottom": "10px",
-                                                                                "paddingTop": "11px",
-                                                                              }
-                                                            }
-                                                  >
-                                                            <Avatar
-                                                                      size="lg"
-                                                                      style={
-                                                                                Object {
-                                                                                          "display": "inline-block",
-                                                                                          "marginRight": "20px",
-                                                                                        }
-                                                                      }
-                                                                      title="John Doe"
-                                                            />
-                                                            <div
-                                                                      style={
-                                                                                Object {
-                                                                                          "display": "inline-block",
-                                                                                        }
-                                                                      }
-                                                            >
-                                                                      <p
-                                                                                className="username"
-                                                                      >
-                                                                                John Doe
-                                                                      </p>
-                                                                      <p
-                                                                                className="subtitle"
-                                                                      >
-                                                                                ADMIN
-                                                                      </p>
-                                                            </div>
-                                                  </MenuItem>
-                                                  <MenuItem
-                                                            divider={true}
-                                                  />
-                                                  <LinkContainer
-                                                            activeClassName="active"
-                                                            exact={false}
-                                                            replace={false}
-                                                            strict={false}
-                                                            to="#"
-                                                  >
-                                                            <MenuItem
-                                                                      eventKey={3.1}
-                                                                      icon="settings"
-                                                            >
-                                                                      Account settings
-                                                            </MenuItem>
-                                                  </LinkContainer>
-                                                  <LinkContainer
-                                                            activeClassName="active"
-                                                            exact={false}
-                                                            replace={false}
-                                                            strict={false}
-                                                            to="#"
-                                                  >
-                                                            <MenuItem
-                                                                      eventKey={3.2}
-                                                                      icon="supervisor_account"
-                                                            >
-                                                                      Users
-                                                            </MenuItem>
-                                                  </LinkContainer>
-                                                  <MenuItem
-                                                            divider={true}
-                                                  />
-                                                  <LinkContainer
-                                                            activeClassName="active"
-                                                            exact={false}
-                                                            replace={false}
-                                                            strict={false}
-                                                            to="#"
-                                                  >
-                                                            <MenuItem
-                                                                      eventKey={3.3}
-                                                                      icon="exit_to_app"
-                                                            >
-                                                                      Sign out
-                                                            </MenuItem>
-                                                  </LinkContainer>
-                                        </NavDropdown>
-                              </Nav>
-                    </div>
-          </AppBar>
-          <PageHeader>
-                    <img
-                              alt="illustration of buildings and windmills"
-                              className="page-header-illustration"
-                              src="page-header-illustration.svg"
-                    />
-                    <h2
-                              className="text-left"
-                              style={
-                                        Object {
-                                                  "marginBottom": "25px",
-                                                  "marginTop": "29px",
-                                                }
-                              }
-                    >
-                              Good afternoon, John!
-                    </h2>
-                    <PageHeaderNavigation
-                              activeKey={1}
-                    >
-                              <LinkContainer
-                                        activeClassName="active"
-                                        eventKey={1}
-                                        exact={false}
-                                        replace={false}
-                                        strict={false}
-                                        to="#"
-                              >
-                                        <NavItem
-                                                  active={false}
-                                                  disabled={false}
-                                        >
-                                                  OVERVIEW
-                                        </NavItem>
-                              </LinkContainer>
-                              <LinkContainer
-                                        activeClassName="active"
-                                        eventKey={2}
-                                        exact={false}
-                                        replace={false}
-                                        strict={false}
-                                        to="#"
-                              >
-                                        <NavItem
-                                                  active={false}
-                                                  disabled={false}
-                                        >
-                                                  COURSE HISTORY
-                                        </NavItem>
-                              </LinkContainer>
-                              <LinkContainer
-                                        activeClassName="active"
-                                        eventKey={3}
-                                        exact={false}
-                                        replace={false}
-                                        strict={false}
-                                        to="#"
-                              >
-                                        <NavItem
-                                                  active={false}
-                                                  disabled={false}
-                                        >
-                                                  REPORTED EXEMPTIONS
-                                        </NavItem>
-                              </LinkContainer>
-                              <NavDropdown
-                                        id="tab-dropdown"
-                                        noCaret={true}
-                                        title={
-                                                  <span>
-                                                            MORE
-                                                            <i
-                                                                      className="material-icons"
-                                                            >
-                                                                      arrow_drop_down
-                                                            </i>
-                                                  </span>
-                                        }
-                              >
-                                        <LinkContainer
-                                                  activeClassName="active"
-                                                  exact={false}
-                                                  replace={false}
-                                                  strict={false}
-                                                  to="#"
-                                        >
-                                                  <MenuItem
-                                                            eventKey={3.1}
-                                                            icon="settings"
-                                                  >
-                                                            Action 1
-                                                  </MenuItem>
-                                        </LinkContainer>
-                                        <LinkContainer
-                                                  activeClassName="active"
-                                                  exact={false}
-                                                  replace={false}
-                                                  strict={false}
-                                                  to="#"
-                                        >
-                                                  <MenuItem
-                                                            eventKey={3.2}
-                                                            icon="supervisor_account"
-                                                  >
-                                                            Action 2
-                                                  </MenuItem>
-                                        </LinkContainer>
-                              </NavDropdown>
-                    </PageHeaderNavigation>
-          </PageHeader>
-          <div
-                    className="container"
-                    style={
-                              Object {
-                                        "paddingTop": "20px",
-                                      }
-                    }
+            My records
+          </a>
+        </li>
+        <li
+          className=""
+          role="presentation"
+          style={undefined}
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+            role="button"
           >
-                    <h2
-                              className="text-left"
-                    >
-                              Overview
-                    </h2>
-          </div>
-</div>,
-      },
-      "_renderedNodeType": 0,
-      "_rootNodeID": 0,
-      "_topLevelWrapper": null,
-      "_updateBatchNumber": null,
-      "_warnedAboutRefsInRender": false,
-    },
-    "getRenderOutput": [Function],
-    "render": [Function],
-  },
-  "root": [Circular],
-  "unrendered": <App />,
-}
+            Browse courses
+          </a>
+        </li>
+      </ul>
+      <div
+        className="pull-right"
+      >
+        <form
+          className="search-form"
+          id={undefined}
+          onClick={[Function]}
+          onSubmit={[Function]}
+          style={undefined}
+        >
+          <i
+            className="material-icons"
+          >
+            search
+          </i>
+          <label
+            className="sr-only"
+            htmlFor="query"
+          >
+            Search for a course provider or subject
+          </label>
+          <input
+            autoCapitalize="off"
+            autoComplete="off"
+            autoCorrect="off"
+            id="query"
+            name="query"
+            onChange={[Function]}
+            placeholder="Search for a course provider or subject"
+            type="search"
+            value=""
+          />
+        </form>
+        <ul
+          className="nav pull-right"
+          role={null}
+        >
+          <li
+            className="upgrade-link"
+            role="presentation"
+            style={undefined}
+          >
+            <a
+              href="#"
+              onClick={[Function]}
+              role="button"
+            >
+              UPGRADE NOW
+            </a>
+          </li>
+          <li
+            className="nav-item-icon"
+            role="presentation"
+            style={undefined}
+          >
+            <a
+              href="#"
+              onClick={[Function]}
+              role="button"
+            >
+              <div
+                className="red-indicator active"
+              >
+                <i
+                  className="material-icons"
+                  style={
+                    Object {
+                      "fontSize": "26px",
+                    }
+                  }
+                >
+                  mail
+                </i>
+              </div>
+            </a>
+          </li>
+          <li
+            className="avatar-dropdown dropdown"
+            style={undefined}
+          >
+            <a
+              aria-expanded={false}
+              aria-haspopup={true}
+              className="dropdown-toggle"
+              href="#"
+              id="test-nav-dropdown"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+            >
+              <div
+                className="avatar avatar-xs"
+                style={
+                  Object {
+                    "backgroundColor": "#C85664",
+                  }
+                }
+              >
+                JD
+              </div>
+            </a>
+            <ul
+              aria-labelledby="test-nav-dropdown"
+              className="dropdown-menu dropdown-menu-right"
+              role="menu"
+            >
+              <li
+                className="dropdown-header"
+                onKeyDown={[Function]}
+                role="heading"
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "minWidth": "217px",
+                    "paddingBottom": "10px",
+                    "paddingTop": "11px",
+                  }
+                }
+              >
+                <div
+                  className="avatar avatar-lg"
+                  style={
+                    Object {
+                      "backgroundColor": "#C85664",
+                      "display": "inline-block",
+                      "marginRight": "20px",
+                    }
+                  }
+                >
+                  JD
+                </div>
+                <div
+                  style={
+                    Object {
+                      "display": "inline-block",
+                    }
+                  }
+                >
+                  <p
+                    className="username"
+                  >
+                    John Doe
+                  </p>
+                  <p
+                    className="subtitle"
+                  >
+                    ADMIN
+                  </p>
+                </div>
+              </li>
+              <li
+                className="divider"
+                onKeyDown={[Function]}
+                role="separator"
+                style={undefined}
+              />
+              <li
+                className=""
+                role="presentation"
+                style={undefined}
+              >
+                <a
+                  href="#"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="menuitem"
+                  tabIndex="-1"
+                >
+                  <i
+                    className="ec-icon material-icons"
+                  >
+                    settings
+                  </i>
+                  Account settings
+                </a>
+              </li>
+              <li
+                className=""
+                role="presentation"
+                style={undefined}
+              >
+                <a
+                  href="#"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="menuitem"
+                  tabIndex="-1"
+                >
+                  <i
+                    className="ec-icon material-icons"
+                  >
+                    supervisor_account
+                  </i>
+                  Users
+                </a>
+              </li>
+              <li
+                className="divider"
+                onKeyDown={[Function]}
+                role="separator"
+                style={undefined}
+              />
+              <li
+                className=""
+                role="presentation"
+                style={undefined}
+              >
+                <a
+                  href="#"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="menuitem"
+                  tabIndex="-1"
+                >
+                  <i
+                    className="ec-icon material-icons"
+                  >
+                    exit_to_app
+                  </i>
+                  Sign out
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div
+    className="ec-page-header"
+  >
+    <div
+      className="container"
+    >
+      <img
+        alt="illustration of buildings and windmills"
+        className="page-header-illustration"
+        src="page-header-illustration.svg"
+      />
+      <h2
+        className="text-left"
+        style={
+          Object {
+            "marginBottom": "25px",
+            "marginTop": "29px",
+          }
+        }
+      >
+        Good afternoon, John!
+      </h2>
+      <ul
+        className="page-header-nav nav nav-pills"
+        role={null}
+      >
+        <li
+          className="active"
+          role="presentation"
+          style={undefined}
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+            role="button"
+          >
+            OVERVIEW
+          </a>
+        </li>
+        <li
+          className=""
+          role="presentation"
+          style={undefined}
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+            role="button"
+          >
+            COURSE HISTORY
+          </a>
+        </li>
+        <li
+          className=""
+          role="presentation"
+          style={undefined}
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+            role="button"
+          >
+            REPORTED EXEMPTIONS
+          </a>
+        </li>
+        <li
+          className="dropdown"
+          style={undefined}
+        >
+          <a
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="dropdown-toggle"
+            href="#"
+            id="tab-dropdown"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+          >
+            <span>
+              MORE
+              <i
+                className="material-icons"
+              >
+                arrow_drop_down
+              </i>
+            </span>
+          </a>
+          <ul
+            aria-labelledby="tab-dropdown"
+            className="dropdown-menu"
+            role="menu"
+          >
+            <li
+              className=""
+              role="presentation"
+              style={undefined}
+            >
+              <a
+                href="#"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="menuitem"
+                tabIndex="-1"
+              >
+                <i
+                  className="ec-icon material-icons"
+                >
+                  settings
+                </i>
+                Action 1
+              </a>
+            </li>
+            <li
+              className=""
+              role="presentation"
+              style={undefined}
+            >
+              <a
+                href="#"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="menuitem"
+                tabIndex="-1"
+              >
+                <i
+                  className="ec-icon material-icons"
+                >
+                  supervisor_account
+                </i>
+                Action 2
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "paddingTop": "20px",
+      }
+    }
+  >
+    <h2
+      className="text-left"
+    >
+      Overview
+    </h2>
+  </div>
+</div>
 `;

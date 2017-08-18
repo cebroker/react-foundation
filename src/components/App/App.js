@@ -16,7 +16,18 @@ import './App.css';
 import { LinkContainer } from 'react-router-bootstrap';
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+
+    const { userFetchStatus, fetchLoggedInUser } = this.props;
+    if (userFetchStatus === 'notLoaded') {
+      fetchLoggedInUser();
+    }
+  }
+
   render() {
+    const { user } = this.props;
     return (
       <div className="App">
         <AppBar>
@@ -56,7 +67,7 @@ class App extends Component {
               <NavDropdown
                 className="avatar-dropdown"
                 eventKey={3}
-                title={<Avatar title="John Doe" />}
+                title={<Avatar title={`${user.firstName} ${user.lastName}`} />}
                 id="test-nav-dropdown"
                 pullRight
                 noCaret
@@ -72,12 +83,12 @@ class App extends Component {
                   }}
                 >
                   <Avatar
-                    title="John Doe"
+                    title={`${user.firstName} ${user.lastName}`}
                     size="lg"
                     style={{ display: 'inline-block', marginRight: '20px' }}
                   />
                   <div style={{ display: 'inline-block' }}>
-                    <p className="username">John Doe</p>
+                    <p className="username">{`${user.firstName} ${user.lastName}`}</p>
                     <p className="subtitle">ADMIN</p>
                   </div>
                 </MenuItem>
@@ -112,7 +123,7 @@ class App extends Component {
             className="text-left"
             style={{ marginTop: '29px', marginBottom: '25px' }}
           >
-            Good afternoon, John!
+            Good afternoon, {user.firstName} !
           </h2>
           <PageHeader.Nav activeKey={1}>
             <LinkContainer to="#" eventKey={1}>

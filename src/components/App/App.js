@@ -17,6 +17,16 @@ import 'material-design-icons/iconfont/material-icons.css';
 import { LinkContainer } from 'react-router-bootstrap';
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+
+    const { userFetchStatus, fetchLoggedInUser } = this.props;
+    if (userFetchStatus === 'notLoaded') {
+      fetchLoggedInUser();
+    }
+  }
+
   render() {
     const { user } = this.props;
     return (

@@ -8,7 +8,7 @@ import { store } from './store/configureStore';
 import '@isfco/evercheck-ui/lib/styles.css';
 import './index.css';
 
-import { App } from './containers';
+import App from './containers/App';
 
 const { REACT_APP_URL_BASE = '/' } = process.env;
 

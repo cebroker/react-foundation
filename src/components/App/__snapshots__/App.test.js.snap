@@ -150,11 +150,11 @@ exports[`renders correctly - snapshot 1`] = `
                 className="avatar avatar-xs"
                 style={
                   Object {
-                    "backgroundColor": "#C85664",
+                    "backgroundColor": "#009688",
                   }
                 }
               >
-                JD
+                uu
               </div>
             </a>
             <ul
@@ -180,13 +180,13 @@ exports[`renders correctly - snapshot 1`] = `
                   className="avatar avatar-lg"
                   style={
                     Object {
-                      "backgroundColor": "#C85664",
+                      "backgroundColor": "#009688",
                       "display": "inline-block",
                       "marginRight": "20px",
                     }
                   }
                 >
-                  JD
+                  uu
                 </div>
                 <div
                   style={
@@ -198,7 +198,7 @@ exports[`renders correctly - snapshot 1`] = `
                   <p
                     className="username"
                   >
-                    John Doe
+                    undefined undefined
                   </p>
                   <p
                     className="subtitle"
@@ -305,7 +305,8 @@ exports[`renders correctly - snapshot 1`] = `
           }
         }
       >
-        Good afternoon, John!
+        Good afternoon, 
+         !
       </h2>
       <ul
         className="page-header-nav nav nav-pills"

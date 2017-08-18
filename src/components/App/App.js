@@ -13,7 +13,6 @@ import AppBar from '../AppBar';
 import ceBrokerLogo from './ce-broker-logo.svg';
 import pageHeaderIllustration from './page-header-illustration.svg';
 import './App.css';
-import 'material-design-icons/iconfont/material-icons.css';
 import { LinkContainer } from 'react-router-bootstrap';
 
 class App extends Component {

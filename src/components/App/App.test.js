@@ -1,13 +1,11 @@
 import React from 'react';
-//import ReactDOM from 'react-dom';
 import { shallow } from 'enzyme';
 import { MemoryRouter } from 'react-router-dom';
 import renderer from 'react-test-renderer';
 import App from './App';
 
-it('renders without crasing', () => {
-  const wrapper = shallow(<App />);
-  expect(wrapper).to.be.present();
+it('renders without crashing', () => {
+  shallow(<App />);
 });
 
 it('renders correctly - snapshot', () => {

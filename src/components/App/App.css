@@ -81,6 +81,10 @@
 	padding-bottom: 25px;
 }
 
+.nav > li.avatar-dropdown {
+	float: right;
+}
+
 .nav > li.avatar-dropdown > a {
 	padding-top: 20px;
 	padding-bottom: 20px;

@@ -5,6 +5,7 @@ import * as api from '../../../api/users';
 import at from '../actions/types';
 
 export default function* fetch() {
+  yield put({ type: at.FETCH_REQUEST });
   yield call(delay, 300);
   try {
     const user = yield call(api.fetchLoggedInUser);

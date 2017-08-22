@@ -123,7 +123,7 @@ class App extends Component {
             className="text-left"
             style={{ marginTop: '29px', marginBottom: '25px' }}
           >
-            Good afternoon, {user.firstName} !
+            Good afternoon, {user.firstName}!
           </h2>
           <PageHeader.Nav activeKey={1}>
             <LinkContainer to="#" eventKey={1}>

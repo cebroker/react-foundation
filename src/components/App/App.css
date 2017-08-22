@@ -85,7 +85,7 @@
 	float: right;
 }
 
-.nav > li.avatar-dropdown .avatar {
+.nav > li.avatar-dropdown > .dropdown-toggle > .avatar {
 	line-height: 14px;
 }
 

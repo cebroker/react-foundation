@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import propTypes from 'prop-types';
 import {
   Nav,
   NavItem,
@@ -16,7 +17,6 @@ import './App.css';
 import { LinkContainer } from 'react-router-bootstrap';
 
 class App extends Component {
-
   constructor(props) {
     super(props);
 
@@ -119,11 +119,8 @@ class App extends Component {
             src={pageHeaderIllustration}
             alt="illustration of buildings and windmills"
           />
-          <h2
-            className="text-left"
-            style={{ marginTop: '29px', marginBottom: '25px' }}
-          >
-            {`Good afternoon${user.firstName ? `, ${user.firstName}!` : '' }`}
+          <h2 className="text-left" style={{ marginTop: '29px', marginBottom: '25px' }}>
+            {`Good afternoon${user.firstName ? `, ${user.firstName}!` : ''}`}
           </h2>
           <PageHeader.Nav activeKey={1}>
             <LinkContainer to="#" eventKey={1}>
@@ -165,5 +162,15 @@ class App extends Component {
     );
   }
 }
+
+App.propTypes = {
+  userFetchStatus: propTypes.string,
+  fetchLoggedInUser: propTypes.func
+};
+
+App.defaultProps = {
+  userFetchStatus: 'loading',
+  fetchLoggedInUser: () => {}
+};
 
 export default App;

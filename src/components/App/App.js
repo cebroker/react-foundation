@@ -163,11 +163,6 @@ class App extends Component {
   }
 }
 
-App.propTypes = {
-  userFetchStatus: propTypes.string,
-  fetchLoggedInUser: propTypes.func
-};
-
 App.defaultProps = {
   userFetchStatus: 'loading',
   fetchLoggedInUser: () => {}
